@@ -1,5 +1,7 @@
 # ModernThreadPool
 
+[![CI](https://github.com/swastikpattjoshi17/Modern-ThreadPool/actions/workflows/ci.yml/badge.svg)](https://github.com/swastikpattjoshi17/Modern-ThreadPool/actions/workflows/ci.yml)
+
 A small, header-only, modern C++17 thread pool with **work-stealing queues**,
 **futures-based task submission**, **priority tasks**, and **pause/resume/graceful-shutdown**
 semantics —  with no external dependencies.

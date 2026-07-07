@@ -9,7 +9,7 @@
 //   - Dynamic worker count queries, pause/resume
 //   - Exception-safe: exceptions from tasks propagate through the future
 //
-// Author: (your name)
+// Author: Swastik Pattjoshi
 // License: MIT
 // ============================================================================
 #pragma once

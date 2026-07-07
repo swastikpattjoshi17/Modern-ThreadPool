@@ -2,7 +2,7 @@
 
 A small, header-only, modern C++17 thread pool with **work-stealing queues**,
 **futures-based task submission**, **priority tasks**, and **pause/resume/graceful-shutdown**
-semantics — built from scratch with no external dependencies.
+semantics —  with no external dependencies.
 
 This project focuses on the concurrency primitives you actually need to
 reason carefully about in an interview: task queuing, exception-safe futures,
@@ -62,7 +62,7 @@ ModernThreadPool/
 Requires a C++17 compiler and CMake 3.14+. No external dependencies.
 
 ```bash
-git clone https://github.com/<your-username>/ModernThreadPool.git
+git clone https://github.com/<swastikpattjoshi17>/ModernThreadPool.git
 cd ModernThreadPool
 cmake -B build -DCMAKE_BUILD_TYPE=Release
 cmake --build build --parallel

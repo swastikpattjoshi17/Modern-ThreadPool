@@ -62,7 +62,7 @@ ModernThreadPool/
 Requires a C++17 compiler and CMake 3.14+. No external dependencies.
 
 ```bash
-git clone https://github.com/<swastikpattjoshi17>/ModernThreadPool.git
+git clone https://github.com/swastikpattjoshi17/ModernThreadPool.git
 cd ModernThreadPool
 cmake -B build -DCMAKE_BUILD_TYPE=Release
 cmake --build build --parallel
